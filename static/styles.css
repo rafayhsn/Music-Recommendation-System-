@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #191414; /* Spotify's background color */
+  color: #ffffff; /* Text color */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #212121; /* Darker shade for contrast */
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  margin-top: 0;
+  color: #1db954; /* Spotify's green color */
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+audio {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+}
+
+.track-title {
+  flex-grow: 1;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.play-btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #1db954; /* Spotify's green color */
+  color: #ffffff; /* Text color */
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.play-btn:hover {
+  background-color: #1ed760; /* Slightly lighter shade on hover */
+}
+
+
+
+.recommendations-container {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #212121; /* Darker shade for contrast */
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.recommendations-title {
+  color: #1db954; /* Spotify's green color */
+  margin-top: 0;
+}
+
+.recommendations-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.recommendation-item {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.track-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
