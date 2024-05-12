@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Music Player</h1>
+    <div class="player">
+      <audio id="audioPlayer" controls></audio>
+      <div class="controls">
+        <span id="trackTitle" class="track-title"></span>
+        <button id="playPauseBtn" class="play-btn">Play</button>
+      </div>
+    </div>
+    <div class="recommendations-container">
+      <h2 class="recommendations-title">Recommended Tracks</h2>
+      <ul class="recommendations-list">
+        <!-- Recommended tracks will be dynamically added here -->
+      </ul>
+    </div>
+  </div>
+  <script src="static/script.js"></script>
+</body>
+</html>
